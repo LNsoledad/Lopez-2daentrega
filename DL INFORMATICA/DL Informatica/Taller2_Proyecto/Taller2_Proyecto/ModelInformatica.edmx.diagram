@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f51324172e664e4db690192ccc5d4ff4" Name="Diagram1">
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Categorias" Width="1.5" PointX="3" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Clientes" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.DetalleFacturas" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Empleados" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Facturas" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Marcas" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Origen_Producto" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Productos" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Proveedores" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Provincia" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.tipoUsuario" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prueba_ProyectoModel.Usuarios" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Productos__id_ca__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Clientes__id_pro__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Facturas__Dni_cl__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__DetalleFa__id_fa__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__DetalleFa__id_pr__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Empleados__id_pr__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Usuarios__dni_Em__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Facturas__id_usu__339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Productos__id_ma__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Productos__id_or__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Productos__id_pr__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Proveedor__id_pr__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="Prueba_ProyectoModel.FK__Usuarios__id_tip__10566F31" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,4 @@
+Administrador: Usuario:39316120  Contraseña: info120
+Supervisor:    Usuario: 12345897 Contraseña: info897
+Vendedor:      Usuario: 67890678 Contraseña: info678
+Superadmin:    Usuario: 34825398 Contraseña: info398

@@ -1,0 +1,536 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Taller2_Proyecto
+</name>
+</assembly>
+<members>
+<member name="T:Taller2_Proyecto.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources._2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.activar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.administrador1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.agregar_cliente">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.AgregarCli32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.ayuda">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.BASE_DE_DATOS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.btn_ingresar_log1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.btn_ingresar2_log1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.buscaCli32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.CancelarVenta24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.CarroNegro32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.CarroNegroAgregar32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.check_box_empty">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.check_box_empty1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.checked">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.checked_1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Clientes">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.comoHAgo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.crear_respaldo_en_mysql">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.customer_service">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.customer_service1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.edit">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.edit_1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.edit_2_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.editar_cliente">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Eliminar24_2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Eliminar24_21">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.escoba">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Find01_128">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.fondo_aplicacion">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.goods">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Icon_Usuario1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.icono_agregar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.icono_eliminar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.icono_modificar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.impresora64">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.info">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.info_1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.InicioSesion2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.limpiar2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.listar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Logo_Completo_2D">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.ModifCli32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.presentationThumbnail">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.report">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.salir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.salir1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.signopregunta">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.simboloActvar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Sistemas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.superAdministrador1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.superAdministrador2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.supervisor">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.Supervisor_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.time_for_sales">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.user_eliminate_12817">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.vendedor">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.vendedor1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.vendedor2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Taller2_Proyecto.My.Resources.Resources.ventas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ClientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.FacturasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.EmpleadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.TOTAL_VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.COMPORTAMIENTO_ANUAL_ARTICULODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.VerFacturasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ProductosSinVentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ClientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.FacturasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.EmpleadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.TOTAL_VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.COMPORTAMIENTO_ANUAL_ARTICULORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.VerFacturasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ProductosSinVentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ClientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.FacturasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.EmpleadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.TOTAL_VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.COMPORTAMIENTO_ANUAL_ARTICULORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.VerFacturasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyecto.ProductosSinVentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.ClientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.FacturasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.EmpleadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.TOTAL_VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.COMPORTAMIENTO_ANUAL_ARTICULOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.VerFacturasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.ProductosSinVentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Taller2_Proyecto.DataSetProyecto,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager.UpdateInsertedRows(Taller2_Proyecto.DataSetProyecto,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager.UpdateDeletedRows(Taller2_Proyecto.DataSetProyecto,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager.UpdateAll(Taller2_Proyecto.DataSetProyecto)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Taller2_Proyecto.DataSetProyectoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

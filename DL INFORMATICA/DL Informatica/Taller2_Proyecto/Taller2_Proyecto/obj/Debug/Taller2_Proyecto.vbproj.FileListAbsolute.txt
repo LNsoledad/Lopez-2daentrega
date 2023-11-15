@@ -1,0 +1,737 @@
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe.config
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.pdb
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.xml
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.cache
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CoreCompileInputs.cache
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojAssemblyReference.cache
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.xml
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.xml
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CopyComplete
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe.config
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.pdb
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.xml
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\EntityFramework.dll
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.dll
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\EntityFramework.xml
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.xml
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojAssemblyReference.cache
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.cache
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CoreCompileInputs.cache
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CopyComplete
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+A:\FACULTAD\Taller II_2018\BACK-UP-PROYECTO\Taller2_Proyecto(01-10-2018)\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentasVendedor.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.BackUp1.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Common.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Design.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.SqlServer.Types.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EnvDTE.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\stdole.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.MSXML.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGenerarFactura.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientes.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorMonto.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorCantComprada.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMenosVendidos.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedores.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedoresPorTurnos.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorCat.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorMarca.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormListarFacturas.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorFecha.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosSinVentas.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVentasPorDia.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCodProdInforme.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormCompAnualProducto.resources
+A:\FACULTAD\Taller II_2018\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormInformeFacturas.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojAssemblyReference.cache
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCodProdInforme.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormCompAnualProducto.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGenerarFactura.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormInformeFacturas.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormListarFacturas.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientes.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorCantComprada.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorMonto.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedores.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedoresPorTurnos.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorCat.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorFecha.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorMarca.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMenosVendidos.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosSinVentas.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVentasPorDia.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.BackUp1.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentasVendedor.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.cache
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CoreCompileInputs.cache
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+C:\Users\Soledad Lopez\Documents\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe.config
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojResolveAssemblyReference.cache
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.Taller2_Proyecto.exe.config
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCodProdInforme.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormCompAnualProducto.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGenerarFactura.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormInformeFacturas.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormListarFacturas.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientes.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorCantComprada.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorMonto.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedores.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedoresPorTurnos.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorCat.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorFecha.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorMarca.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMenosVendidos.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosSinVentas.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVentasPorDia.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.BackUp1.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentasVendedor.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.Cache
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\RdlCompile.cache
+C:\Users\adee-\Desktop\2da entrega-Taller 2-20230130T103013Z-001\2da entrega-Taller 2\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\RdlCompile.compiled
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe.config
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.pdb
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.xml
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EnvDTE.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\stdole.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.xml
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojAssemblyReference.cache
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCodProdInforme.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormCompAnualProducto.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGenerarFactura.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormInformeFacturas.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormListarFacturas.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientes.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorCantComprada.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorMonto.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedores.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedoresPorTurnos.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorCat.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorFecha.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorMarca.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMenosVendidos.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosSinVentas.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVentasPorDia.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.BackUp1.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentasVendedor.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.cache
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CoreCompileInputs.cache
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CopyComplete
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+C:\Users\Soledad Lopez\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe.config
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojResolveAssemblyReference.cache
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.Taller2_Proyecto.exe.config
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCodProdInforme.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormCompAnualProducto.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGenerarFactura.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormInformeFacturas.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormListarFacturas.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientes.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorCantComprada.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorMonto.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedores.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedoresPorTurnos.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorCat.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorFecha.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorMarca.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMenosVendidos.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosSinVentas.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVentasPorDia.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.BackUp1.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentasVendedor.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.Cache
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\RdlCompile.cache
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\RdlCompile.compiled
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.pdb
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.xml
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EnvDTE.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\stdole.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EnvDTE80.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\VSLangProj.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\VSLangProj80.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.MSXML.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\VSLangProj2.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.xml
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\DL Informatica\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe.config
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.pdb
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.xml
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EnvDTE.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\stdole.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EnvDTE80.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\VSLangProj.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\VSLangProj80.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.MSXML.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\VSLangProj2.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.xml
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojResolveAssemblyReference.cache
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.Taller2_Proyecto.exe.config
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCodProdInforme.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormCompAnualProducto.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGenerarFactura.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormInformeFacturas.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormListarFacturas.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientes.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorCantComprada.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorMonto.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedores.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedoresPorTurnos.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorCat.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorFecha.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorMarca.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMenosVendidos.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosSinVentas.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVentasPorDia.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.BackUp1.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentasVendedor.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.Cache
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\RdlCompile.cache
+C:\Users\adee-\Desktop\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\RdlCompile.compiled
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbprojAssemblyReference.cache
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCodProdInforme.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormCompAnualProducto.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGenerarFactura.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormInformeFacturas.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormListarFacturas.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientes.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorCantComprada.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresClientesPorMonto.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedores.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormMejoresVendedoresPorTurnos.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorCat.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorFecha.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMasVendidosPorMarca.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosMenosVendidos.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormProductosSinVentas.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVentasPorDia.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.BackUp1.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormAdministrador.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormEliminarCliente.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarEmpleados.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormReportes.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBienvenida.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFondo.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCategorias.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarEmpleados.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarMarcas.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProductos.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarClientes.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarProvincias.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarUsuarios.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentas.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormConsultarVentasVendedor.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSuperAdministrador.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormRealizarBackUp.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarProducto.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarProductos.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormModifStockPrecio.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormSupervisor.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormBuscarCliente.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormFacturacion.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarClientes.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormGestionarUsuarios.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormLogin.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.FormVendedor.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.Resources.resources
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.GenerateResource.cache
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CoreCompileInputs.cache
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.exe
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.xml
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.pdb
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe.config
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.exe
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.pdb
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Taller2_Proyecto.xml
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EnvDTE.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\stdole.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.xml
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Noelia Soledad\Desktop\PROYECTO 2023\DL INFORMATICA\hola\Taller2_Proyecto\Taller2_Proyecto\obj\Debug\Taller2_Proyecto.vbproj.CopyComplete

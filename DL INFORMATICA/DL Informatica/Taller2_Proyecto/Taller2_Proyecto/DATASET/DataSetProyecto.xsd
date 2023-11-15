@@ -1,0 +1,1100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetProyecto" targetNamespace="http://tempuri.org/DataSetProyecto.xsd" xmlns:mstns="http://tempuri.org/DataSetProyecto.xsd" xmlns="http://tempuri.org/DataSetProyecto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Prueba_ProyectoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Prueba_ProyectoConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Taller2_Proyecto.My.MySettings.GlobalReference.Default.Prueba_ProyectoConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ClientesTableAdapter" GeneratorDataComponentClassName="ClientesTableAdapter" Name="Clientes" UserDataComponentName="ClientesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.Clientes" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="MostrarMejoresClientes" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="MostrarMejoresClientes" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="MostrarMejoresClientes">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT      top(5)  Clientes.dni_cliente, Clientes.apellido, Clientes.nombre, SUM(Facturas.total_factura) AS Total_Gastado, SUM(DetalleFacturas.cantidad) AS Cantidad_Compradas
+FROM            Clientes INNER JOIN
+                         Facturas ON Clientes.dni_cliente = Facturas.dni_cliente INNER JOIN
+                         DetalleFacturas ON Facturas.id_factura = DetalleFacturas.id_factura
+WHERE        (Clientes.estado_cliente = 1)
+GROUP BY Clientes.dni_cliente, Clientes.apellido, Clientes.nombre
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="dni_cliente" DataSetColumn="dni_cliente" />
+              <Mapping SourceColumn="apellido" DataSetColumn="apellido" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="Total_Gastado" DataSetColumn="Total_Gastado" />
+              <Mapping SourceColumn="Cantidad_Compradas" DataSetColumn="Cantidad_Compradas" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.Clientes" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="MostrarMejoresClientesPorCantidad" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="MostrarMejoresClientesPorCantidad" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="MostrarMejoresClientesPorCantidad">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TOP (5) Clientes.dni_cliente, Clientes.apellido, Clientes.nombre, SUM(Facturas.total_factura) AS Total_Gastado, SUM(DetalleFacturas.cantidad) AS Cantidad_Compradas
+FROM            Clientes INNER JOIN
+                         Facturas ON Clientes.dni_cliente = Facturas.dni_cliente INNER JOIN
+                         DetalleFacturas ON Facturas.id_factura = DetalleFacturas.id_factura
+WHERE        (Clientes.estado_cliente = 1) AND (Facturas.fecha_factura BETWEEN @desde AND @hasta)
+GROUP BY Clientes.dni_cliente, Clientes.apellido, Clientes.nombre
+ORDER BY Cantidad_Compradas DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.Clientes" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="MostrarMejoresClientesPorMonto" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="MostrarMejoresClientesPorMonto" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="MostrarMejoresClientesPorMonto">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TOP (5) Clientes.dni_cliente, Clientes.apellido, Clientes.nombre, SUM(Facturas.total_factura) AS Total_Gastado, SUM(DetalleFacturas.cantidad) AS Cantidad_Compradas
+FROM            Clientes INNER JOIN
+                         Facturas ON Clientes.dni_cliente = Facturas.dni_cliente INNER JOIN
+                         DetalleFacturas ON Facturas.id_factura = DetalleFacturas.id_factura
+WHERE        (Clientes.estado_cliente = 1) AND (Facturas.fecha_factura BETWEEN @desde AND @hasta)
+GROUP BY Clientes.dni_cliente, Clientes.apellido, Clientes.nombre
+ORDER BY Total_Gastado DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProductosTableAdapter" GeneratorDataComponentClassName="ProductosTableAdapter" Name="Productos" UserDataComponentName="ProductosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="ProductosMasVendidosCategoria" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="ProductosMasVendidosCategoria" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="ProductosMasVendidosCategoria">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        P.descripcion AS Producto, m.descripcion AS Marca, C.descripcion AS Categoria, COUNT(*) AS Cantidad, P.precio AS Precio, SUM(DF.cantidad * P.precio) AS Ingresos, CONVERT(decimal(18,2), AVG(DF.cantidad * P.precio)) AS Promedio
+FROM            DetalleFacturas AS DF INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Facturas AS F ON DF.id_factura = F.id_factura INNER JOIN
+                         Marcas AS m ON P.id_marca = m.id_marca INNER JOIN
+                         Categorias AS C ON P.id_categoria = C.id_categoria
+WHERE        (P.estado = 1) AND (C.descripcion = @categoria)
+GROUP BY P.descripcion, m.descripcion, C.descripcion, P.precio, DF.cantidad
+ORDER BY DF.cantidad DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="categoria" ColumnName="descripcion" DataSourceName="Prueba_Proyecto.dbo.Categorias" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@categoria" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="Categoria" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="Marca" DataSetColumn="Marca" />
+              <Mapping SourceColumn="Categoria" DataSetColumn="Categoria" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Ingresos" DataSetColumn="Ingresos" />
+              <Mapping SourceColumn="Promedio" DataSetColumn="Promedio" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="ProductosMasVendidosFecha" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="ProductosMasVendidosFecha" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="ProductosMasVendidosFecha">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        P.descripcion AS Producto, m.descripcion AS Marca, C.descripcion AS Categoria, COUNT(*) AS Cantidad, P.precio AS Precio, SUM(DF.cantidad * P.precio) AS Ingresos, CONVERT(decimal(18, 2), AVG(DF.cantidad * P.precio)) 
+                         AS Promedio
+FROM            DetalleFacturas AS DF INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Facturas AS F ON DF.id_factura = F.id_factura INNER JOIN
+                         Marcas AS m ON P.id_marca = m.id_marca INNER JOIN
+                         Categorias AS C ON P.id_categoria = C.id_categoria
+WHERE        (P.estado = 1) AND (F.fecha_factura BETWEEN @desde AND @hasta)
+GROUP BY P.descripcion, m.descripcion, C.descripcion, P.precio, DF.cantidad
+ORDER BY DF.cantidad DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="ProductosMasVendidosMarca" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="ProductosMasVendidosMarca" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="ProductosMasVendidosMarca">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        P.descripcion AS Producto, m.descripcion AS Marca, C.descripcion AS Categoria, COUNT(*) AS Cantidad, P.precio AS Precio, SUM(DF.cantidad * P.precio) AS Ingresos, CONVERT(decimal(18, 2), AVG(DF.cantidad * P.precio)) 
+                         AS Promedio
+FROM            DetalleFacturas AS DF INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Facturas AS F ON DF.id_factura = F.id_factura INNER JOIN
+                         Marcas AS m ON P.id_marca = m.id_marca INNER JOIN
+                         Categorias AS C ON P.id_categoria = C.id_categoria
+WHERE        (P.estado = 1) AND (m.descripcion = @marca)
+GROUP BY P.descripcion, m.descripcion, C.descripcion, P.precio, DF.cantidad
+ORDER BY DF.cantidad DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="marca" ColumnName="descripcion" DataSourceName="Prueba_Proyecto.dbo.Marcas" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@marca" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="Marca" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FacturasTableAdapter" GeneratorDataComponentClassName="FacturasTableAdapter" Name="Facturas" UserDataComponentName="FacturasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="GenerarFactura" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="GenerarFactura" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GenerarFactura">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, DF.cantidad AS Unidades, Cat.descripcion AS Categoria, M.descripcion AS Marca, P.precio AS Precio, DF.subtotal AS Subtotal, F.total_factura AS Total, E.dni_empleado, P.descripcion, DF.id_detalle, 
+                         DF.id_producto
+FROM            Facturas AS F INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Categorias AS Cat ON Cat.id_categoria = P.id_categoria INNER JOIN
+                         Marcas AS M ON M.id_marca = P.id_marca
+WHERE        (F.id_factura = @idFactura)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idFactura" ColumnName="id_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idFactura" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="NumFactura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NumFactura" DataSetColumn="NumFactura" />
+              <Mapping SourceColumn="Fecha" DataSetColumn="Fecha" />
+              <Mapping SourceColumn="ClienteNom" DataSetColumn="ClienteNom" />
+              <Mapping SourceColumn="ClienteApe" DataSetColumn="ClienteApe" />
+              <Mapping SourceColumn="ClienteDomicilio" DataSetColumn="ClienteDomicilio" />
+              <Mapping SourceColumn="ClienteDni" DataSetColumn="ClienteDni" />
+              <Mapping SourceColumn="ClienteTel" DataSetColumn="ClienteTel" />
+              <Mapping SourceColumn="VendedorNom" DataSetColumn="VendedorNom" />
+              <Mapping SourceColumn="VendedorApe" DataSetColumn="VendedorApe" />
+              <Mapping SourceColumn="Unidades" DataSetColumn="Unidades" />
+              <Mapping SourceColumn="Categoria" DataSetColumn="Categoria" />
+              <Mapping SourceColumn="Marca" DataSetColumn="Marca" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Subtotal" DataSetColumn="Subtotal" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="dni_empleado" DataSetColumn="dni_empleado" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="id_detalle" DataSetColumn="id_detalle" />
+              <Mapping SourceColumn="id_producto" DataSetColumn="id_producto" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFacturaPorApeCliente" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="BuscarFacturaPorApeCliente" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="BuscarFacturaPorApeCliente">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, DF.cantidad AS Unidades, Cat.descripcion AS Categoria, M.descripcion AS Marca, P.precio AS Precio, DF.subtotal AS Subtotal, F.total_factura AS Total, E.dni_empleado, P.descripcion, DF.id_detalle, 
+                         DF.id_producto
+FROM            Facturas AS F INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Categorias AS Cat ON Cat.id_categoria = P.id_categoria INNER JOIN
+                         Marcas AS M ON M.id_marca = P.id_marca
+WHERE        (C.apellido LIKE '%' + @param_apell + '%')</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_apell" ColumnName="apellido" DataSourceName="Prueba_Proyecto.dbo.Clientes" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@param_apell" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="ClienteApe" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFacturaPorDniCliente" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="BuscarFacturaPorDniCliente" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="BuscarFacturaPorDniCliente">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, DF.cantidad AS Unidades, Cat.descripcion AS Categoria, M.descripcion AS Marca, P.precio AS Precio, DF.subtotal AS Subtotal, F.total_factura AS Total, E.dni_empleado, P.descripcion, DF.id_detalle, 
+                         DF.id_producto
+FROM            Facturas AS F INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Categorias AS Cat ON Cat.id_categoria = P.id_categoria INNER JOIN
+                         Marcas AS M ON M.id_marca = P.id_marca
+WHERE        (CAST(C.dni_cliente AS VARCHAR) LIKE '%' + @param_dni + '%')</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFacturaPorDniEmpleado" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy2" GeneratorSourceName="BuscarFacturaPorDniEmpleado" GetMethodModifier="Public" GetMethodName="GetDataBy2" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="BuscarFacturaPorDniEmpleado">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, DF.cantidad AS Unidades, Cat.descripcion AS Categoria, M.descripcion AS Marca, P.precio AS Precio, DF.subtotal AS Subtotal, F.total_factura AS Total, E.dni_empleado, P.descripcion, DF.id_detalle, 
+                         DF.id_producto
+FROM            Facturas AS F INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Categorias AS Cat ON Cat.id_categoria = P.id_categoria INNER JOIN
+                         Marcas AS M ON M.id_marca = P.id_marca
+WHERE        (CAST(U.dni_empleado AS VARCHAR) LIKE '%' + @param_dni + '%')</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFacturaPorID" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy4" GeneratorSourceName="BuscarFacturaPorID" GetMethodModifier="Public" GetMethodName="GetDataBy4" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy4" UserSourceName="BuscarFacturaPorID">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, DF.cantidad AS Unidades, Cat.descripcion AS Categoria, M.descripcion AS Marca, P.precio AS Precio, DF.subtotal AS Subtotal, F.total_factura AS Total, E.dni_empleado, P.descripcion, DF.id_detalle, 
+                         DF.id_producto
+FROM            Facturas AS F INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Categorias AS Cat ON Cat.id_categoria = P.id_categoria INNER JOIN
+                         Marcas AS M ON M.id_marca = P.id_marca
+WHERE        (F.id_factura = @idFactura)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idFactura" ColumnName="id_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idFactura" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="NumFactura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFacturasPorFechas" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy3" GeneratorSourceName="BuscarFacturasPorFechas" GetMethodModifier="Public" GetMethodName="GetDataBy3" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="BuscarFacturasPorFechas">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, DF.cantidad AS Unidades, Cat.descripcion AS Categoria, M.descripcion AS Marca, P.precio AS Precio, DF.subtotal AS Subtotal, F.total_factura AS Total, E.dni_empleado, P.descripcion, DF.id_detalle, 
+                         DF.id_producto
+FROM            Facturas AS F INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Categorias AS Cat ON Cat.id_categoria = P.id_categoria INNER JOIN
+                         Marcas AS M ON M.id_marca = P.id_marca
+WHERE        (F.fecha_factura BETWEEN @desde AND @hasta)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="Fecha" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="Fecha" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="VerTodasLasFacturas" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy5" GeneratorSourceName="VerTodasLasFacturas" GetMethodModifier="Public" GetMethodName="GetDataBy5" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy5" UserSourceName="VerTodasLasFacturas">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, DF.cantidad AS Unidades, Cat.descripcion AS Categoria, M.descripcion AS Marca, P.precio AS Precio, DF.subtotal AS Subtotal, F.total_factura AS Total, E.dni_empleado, P.descripcion, DF.id_detalle, 
+                         DF.id_producto
+FROM            Facturas AS F INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Productos AS P ON DF.id_producto = P.id_producto INNER JOIN
+                         Categorias AS Cat ON Cat.id_categoria = P.id_categoria INNER JOIN
+                         Marcas AS M ON M.id_marca = P.id_marca</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EmpleadosTableAdapter" GeneratorDataComponentClassName="EmpleadosTableAdapter" Name="Empleados" UserDataComponentName="EmpleadosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="MejoresVendedores" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="MejoresVendedores" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="MejoresVendedores">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        E.nombre AS VendedorNom, E.apellido AS VendedorApe, E.dni_empleado AS VendedorDni, COUNT(DF.cantidad) AS Unidades_Vendidas, Dias.ventas_dia AS Ventas_Dia, SUM(F.total_factura) AS Total_Ventas, 
+                         SUM(F.total_factura) / Dias.ventas_dia AS Promedio_Dia
+FROM            Empleados AS E INNER JOIN
+                         Usuarios AS U ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Facturas AS F ON U.id_usuario = F.id_usuario INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                             (SELECT        e.dni_empleado, COUNT(DISTINCT f.fecha_factura) AS ventas_dia
+                               FROM            Empleados AS e INNER JOIN
+                                                         Usuarios AS u ON u.dni_empleado = e.dni_empleado INNER JOIN
+                                                         Facturas AS f ON u.id_usuario = f.id_usuario INNER JOIN
+                                                         DetalleFacturas AS df ON f.id_factura = df.id_factura
+                               GROUP BY e.dni_empleado) AS Dias ON E.dni_empleado = Dias.dni_empleado
+WHERE        (E.estado_empleado = 1)
+GROUP BY E.nombre, E.apellido, E.dni_empleado, Dias.ventas_dia
+ORDER BY Total_Ventas DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VendedorNom" DataSetColumn="VendedorNom" />
+              <Mapping SourceColumn="VendedorApe" DataSetColumn="VendedorApe" />
+              <Mapping SourceColumn="VendedorDni" DataSetColumn="VendedorDni" />
+              <Mapping SourceColumn="Unidades_Vendidas" DataSetColumn="Unidades_Vendidas" />
+              <Mapping SourceColumn="Ventas_Dia" DataSetColumn="Ventas_Dia" />
+              <Mapping SourceColumn="Total_Ventas" DataSetColumn="Total_Ventas" />
+              <Mapping SourceColumn="Promedio_Dia" DataSetColumn="Promedio_Dia" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="MejoresVendedoresPorFecha" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="MejoresVendedoresPorFecha" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="MejoresVendedoresPorFecha">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        E.nombre AS VendedorNom, E.apellido AS VendedorApe, E.dni_empleado AS VendedorDni, COUNT(DF.cantidad) AS Unidades_Vendidas, Dias.ventas_dia AS Ventas_Dia, SUM(F.total_factura) AS Total_Ventas, 
+                         SUM(F.total_factura) / Dias.ventas_dia AS Promedio_Dia
+FROM            Empleados AS E INNER JOIN
+                         Usuarios AS U ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Facturas AS F ON U.id_usuario = F.id_usuario INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                             (SELECT        e.dni_empleado, COUNT(DISTINCT f.fecha_factura) AS ventas_dia
+                               FROM            Empleados AS e INNER JOIN
+                                                         Usuarios AS u ON u.dni_empleado = e.dni_empleado INNER JOIN
+                                                         Facturas AS f ON u.id_usuario = f.id_usuario INNER JOIN
+                                                         DetalleFacturas AS df ON f.id_factura = df.id_factura
+                               GROUP BY e.dni_empleado) AS Dias ON E.dni_empleado = Dias.dni_empleado
+WHERE        (E.estado_empleado = 1) AND (F.fecha_factura BETWEEN @desde AND @hasta)
+GROUP BY E.nombre, E.apellido, E.dni_empleado, Dias.ventas_dia
+ORDER BY Total_Ventas DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="fecha_factura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="MejoresVendedoresPorTurno" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="MejoresVendedoresPorTurno" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="MejoresVendedoresPorTurno">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        E.nombre AS VendedorNom, E.apellido AS VendedorApe, E.dni_empleado AS VendedorDni, COUNT(DF.cantidad) AS Unidades_Vendidas, Dias.ventas_dia AS Ventas_Dia, SUM(F.total_factura) AS Total_Ventas, 
+                         SUM(F.total_factura) / Dias.ventas_dia AS Promedio_Dia
+FROM            Empleados AS E INNER JOIN
+                         Usuarios AS U ON U.dni_empleado = E.dni_empleado INNER JOIN
+                         Facturas AS F ON U.id_usuario = F.id_usuario INNER JOIN
+                         DetalleFacturas AS DF ON F.id_factura = DF.id_factura INNER JOIN
+                             (SELECT        e.dni_empleado, COUNT(DISTINCT f.fecha_factura) AS ventas_dia
+                               FROM            Empleados AS e INNER JOIN
+                                                         Usuarios AS u ON u.dni_empleado = e.dni_empleado INNER JOIN
+                                                         Facturas AS f ON u.id_usuario = f.id_usuario INNER JOIN
+                                                         DetalleFacturas AS df ON f.id_factura = df.id_factura
+                               GROUP BY e.dni_empleado) AS Dias ON E.dni_empleado = Dias.dni_empleado
+WHERE        (E.estado_empleado = 1) AND (E.turno = @turno)
+GROUP BY E.nombre, E.apellido, E.dni_empleado, Dias.ventas_dia
+ORDER BY Total_Ventas DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="turno" ColumnName="turno" DataSourceName="Prueba_Proyecto.dbo.Empleados" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@turno" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="turno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TOTAL_VENTASTableAdapter" GeneratorDataComponentClassName="TOTAL_VENTASTableAdapter" Name="TOTAL_VENTAS" UserDataComponentName="TOTAL_VENTASTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.Facturas" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="TotalVentaDia" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="TotalVentaDia" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="TotalVentaDia">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        fecha_factura AS FECHA, DATEPART(DAY, fecha_factura) AS DIA, DATENAME(DAY, fecha_factura) AS DIA_NOMBRE, DATEPART(MONTH, fecha_factura) AS MES, DATENAME(MONTH, fecha_factura) AS MES_NOMBRE, 
+                         DATEPART(YEAR, fecha_factura) AS AÑO, COUNT(DISTINCT id_factura) AS CanOperaciones, SUM(total_factura) AS TotalVendido, SUM(total_factura) * 0.25 AS GANANCIA, SUM(total_factura) - SUM(total_factura) 
+                         * 0.25 AS CAP_INVERTIDO
+FROM            Facturas
+WHERE        (fecha_factura = @fecha)
+GROUP BY fecha_factura</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="fecha" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@fecha" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="FECHA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FECHA" DataSetColumn="FECHA" />
+              <Mapping SourceColumn="DIA" DataSetColumn="DIA" />
+              <Mapping SourceColumn="DIA_NOMBRE" DataSetColumn="DIA_NOMBRE" />
+              <Mapping SourceColumn="MES" DataSetColumn="MES" />
+              <Mapping SourceColumn="MES_NOMBRE" DataSetColumn="MES_NOMBRE" />
+              <Mapping SourceColumn="AÑO" DataSetColumn="AÑO" />
+              <Mapping SourceColumn="CanOperaciones" DataSetColumn="CanOperaciones" />
+              <Mapping SourceColumn="TotalVendido" DataSetColumn="TotalVendido" />
+              <Mapping SourceColumn="GANANCIA" DataSetColumn="GANANCIA" />
+              <Mapping SourceColumn="CAP_INVERTIDO" DataSetColumn="CAP_INVERTIDO" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.Facturas" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="TotalVentasAño" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="TotalVentasAño" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="TotalVentasAño">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        fecha_factura AS FECHA, DATEPART(DAY, fecha_factura) AS DIA, DATENAME(DAY, fecha_factura) AS DIA_NOMBRE, DATEPART(MONTH, fecha_factura) AS MES, DATENAME(MONTH, fecha_factura) AS MES_NOMBRE, 
+                         DATEPART(YEAR, fecha_factura) AS AÑO, COUNT(DISTINCT id_factura) AS CanOperaciones, SUM(total_factura) AS TotalVendido, SUM(total_factura) * 0.25 AS GANANCIA, SUM(total_factura) - SUM(total_factura) 
+                         * 0.25 AS CAP_INVERTIDO
+FROM            Facturas
+WHERE        (DATEPART(YEAR, fecha_factura) = @año)
+GROUP BY fecha_factura</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="año" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="Decimal" Direction="Input" ParameterName="@año" Precision="0" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.Facturas" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="TotalVentasMes" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="TotalVentasMes" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="TotalVentasMes">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        fecha_factura AS FECHA, DATEPART(DAY, fecha_factura) AS DIA, DATENAME(DAY, fecha_factura) AS DIA_NOMBRE, DATEPART(MONTH, fecha_factura) AS MES, DATENAME(MONTH, fecha_factura) AS MES_NOMBRE, 
+                         DATEPART(YEAR, fecha_factura) AS AÑO, COUNT(DISTINCT id_factura) AS CanOperaciones, SUM(total_factura) AS TotalVendido, SUM(total_factura) * 0.25 AS GANANCIA, SUM(total_factura) - SUM(total_factura) 
+                         * 0.25 AS CAP_INVERTIDO
+FROM            Facturas
+WHERE        (DATENAME(MONTH, fecha_factura) = @mes)
+GROUP BY fecha_factura</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="mes" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@mes" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="COMPORTAMIENTO_ANUAL_ARTICULOTableAdapter" GeneratorDataComponentClassName="COMPORTAMIENTO_ANUAL_ARTICULOTableAdapter" Name="COMPORTAMIENTO_ANUAL_ARTICULO" UserDataComponentName="COMPORTAMIENTO_ANUAL_ARTICULOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="EstadisticaProductoAñoCodProd" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="EstadisticaProductoAñoCodProd" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="EstadisticaProductoAñoCodProd">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        DetalleFacturas.id_producto AS Codigo, Productos.descripcion AS Producto, Marcas.descripcion AS MARCA, SUM(DetalleFacturas.cantidad) AS CANT, Productos.stock AS STOCKACTUAL, Productos.precio AS PRECIOACTUAL, 
+                         SUM(DetalleFacturas.subtotal) AS MONTOFACTXPROD, SUM(DetalleFacturas.subtotal) * 0.25 AS GANANCIA_ESTIMADA, DATEPART(MONTH, Facturas.fecha_factura) AS MES, DATEPART(YEAR, Facturas.fecha_factura) AS AÑO
+FROM            DetalleFacturas INNER JOIN
+                         Productos ON DetalleFacturas.id_producto = Productos.id_producto INNER JOIN
+                         Facturas ON DetalleFacturas.id_factura = Facturas.id_factura INNER JOIN
+                         Marcas ON Productos.id_marca = Marcas.id_marca
+WHERE        (Productos.id_producto = @codProducto) AND (DATEPART(YEAR, Facturas.fecha_factura) = @year)
+GROUP BY DetalleFacturas.id_producto, Productos.descripcion, Marcas.descripcion, Productos.stock, Productos.precio, DATEPART(MONTH, Facturas.fecha_factura), DATEPART(YEAR, Facturas.fecha_factura)
+ORDER BY MES</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="codProducto" ColumnName="id_producto" DataSourceName="Prueba_Proyecto.dbo.Productos" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@codProducto" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="id_producto" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="year" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="Decimal" Direction="Input" ParameterName="@year" Precision="0" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MARCA" DataSetColumn="MARCA" />
+              <Mapping SourceColumn="CANT" DataSetColumn="CANT" />
+              <Mapping SourceColumn="PRECIOACTUAL" DataSetColumn="PRECIOACTUAL" />
+              <Mapping SourceColumn="GANANCIA_ESTIMADA" DataSetColumn="GANANCIA_ESTIMADA" />
+              <Mapping SourceColumn="MES" DataSetColumn="MES" />
+              <Mapping SourceColumn="AÑO" DataSetColumn="AÑO" />
+              <Mapping SourceColumn="Codigo" DataSetColumn="Codigo" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="STOCKACTUAL" DataSetColumn="STOCKACTUAL" />
+              <Mapping SourceColumn="MONTOFACTXPROD" DataSetColumn="MONTOFACTXPROD" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="EstadisticaProdTodosAños" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="EstadisticaProdTodosAños" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="EstadisticaProdTodosAños">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        DetalleFacturas.id_producto AS Codigo, Productos.descripcion AS Producto, Marcas.descripcion AS MARCA, SUM(DetalleFacturas.cantidad) AS CANT, Productos.stock AS STOCKACTUAL, Productos.precio AS PRECIOACTUAL, 
+                         SUM(DetalleFacturas.subtotal) AS MONTOFACTXPROD, SUM(DetalleFacturas.subtotal) * 0.25 AS GANANCIA_ESTIMADA, DATEPART(MONTH, Facturas.fecha_factura) AS MES, DATEPART(YEAR, Facturas.fecha_factura) AS AÑO
+FROM            DetalleFacturas INNER JOIN
+                         Productos ON DetalleFacturas.id_producto = Productos.id_producto INNER JOIN
+                         Facturas ON DetalleFacturas.id_factura = Facturas.id_factura INNER JOIN
+                         Marcas ON Productos.id_marca = Marcas.id_marca
+
+GROUP BY DetalleFacturas.id_producto, Productos.descripcion, Marcas.descripcion, Productos.stock, Productos.precio, DATEPART(MONTH, Facturas.fecha_factura), DATEPART(YEAR, Facturas.fecha_factura)
+ORDER BY MES</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="EstadisticaProductosAño" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="EstadisticaProductosAño" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="EstadisticaProductosAño">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        DetalleFacturas.id_producto AS Codigo, Productos.descripcion AS Producto, Marcas.descripcion AS MARCA, SUM(DetalleFacturas.cantidad) AS CANT, Productos.stock AS STOCKACTUAL, Productos.precio AS PRECIOACTUAL, 
+                         SUM(DetalleFacturas.subtotal) AS MONTOFACTXPROD, SUM(DetalleFacturas.subtotal) * 0.25 AS GANANCIA_ESTIMADA, DATEPART(MONTH, Facturas.fecha_factura) AS MES, DATEPART(YEAR, Facturas.fecha_factura) AS AÑO
+FROM            DetalleFacturas INNER JOIN
+                         Productos ON DetalleFacturas.id_producto = Productos.id_producto INNER JOIN
+                         Facturas ON DetalleFacturas.id_factura = Facturas.id_factura INNER JOIN
+                         Marcas ON Productos.id_marca = Marcas.id_marca
+WHERE      (DATEPART(YEAR, Facturas.fecha_factura) = @year)
+GROUP BY DetalleFacturas.id_producto, Productos.descripcion, Marcas.descripcion, Productos.stock, Productos.precio, DATEPART(MONTH, Facturas.fecha_factura), DATEPART(YEAR, Facturas.fecha_factura)
+ORDER BY MES</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="year" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="Decimal" Direction="Input" ParameterName="@year" Precision="0" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VerFacturasTableAdapter" GeneratorDataComponentClassName="VerFacturasTableAdapter" Name="VerFacturas" UserDataComponentName="VerFacturasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="VerTodasLasFacturas" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="VerTodasLasFacturas" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="VerTodasLasFacturas">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+                     </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NumFactura" DataSetColumn="NumFactura" />
+              <Mapping SourceColumn="Fecha" DataSetColumn="Fecha" />
+              <Mapping SourceColumn="ClienteNom" DataSetColumn="ClienteNom" />
+              <Mapping SourceColumn="ClienteApe" DataSetColumn="ClienteApe" />
+              <Mapping SourceColumn="ClienteDomicilio" DataSetColumn="ClienteDomicilio" />
+              <Mapping SourceColumn="ClienteDni" DataSetColumn="ClienteDni" />
+              <Mapping SourceColumn="ClienteTel" DataSetColumn="ClienteTel" />
+              <Mapping SourceColumn="VendedorNom" DataSetColumn="VendedorNom" />
+              <Mapping SourceColumn="VendedorApe" DataSetColumn="VendedorApe" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="dni_empleado" DataSetColumn="dni_empleado" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactApellidoCliente" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="BuscarFactApellidoCliente" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="BuscarFactApellidoCliente">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT   F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+ WHERE        (C.apellido LIKE '%' + @param_dni + '%')                    </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="apellido" DataSourceName="Prueba_Proyecto.dbo.Clientes" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="ClienteApe" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactDniCliente" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy2" GeneratorSourceName="BuscarFactDniCliente" GetMethodModifier="Public" GetMethodName="GetDataBy2" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="BuscarFactDniCliente">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+     WHERE        (CAST(C.dni_cliente AS VARCHAR) LIKE '%' + @param_dni + '%')                </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactDniVendedor" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy4" GeneratorSourceName="BuscarFactDniVendedor" GetMethodModifier="Public" GetMethodName="GetDataBy4" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy4" UserSourceName="BuscarFactDniVendedor">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+WHERE        (CAST(U.dni_empleado AS VARCHAR) LIKE '%' + @param_dni + '%')                     </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactFecha" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy3" GeneratorSourceName="BuscarFactFecha" GetMethodModifier="Public" GetMethodName="GetDataBy3" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="BuscarFactFecha">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+   WHERE (F.fecha_factura BETWEEN @desde AND @hasta)                  </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="Fecha" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="Fecha" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactPorId" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="BuscarFactPorId" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="BuscarFactPorId">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT    F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+  WHERE        (F.id_factura = @idFactura)                   </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idFactura" ColumnName="id_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idFactura" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="NumFactura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactVendedorPorApeCliente" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy6" GeneratorSourceName="BuscarFactVendedorPorApeCliente" GetMethodModifier="Public" GetMethodName="GetDataBy6" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy6" UserSourceName="BuscarFactVendedorPorApeCliente">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+ WHERE        (C.apellido LIKE '%' + @param_apellido+ '%')  AND  (CAST(U.dni_empleado AS VARCHAR) LIKE '%' + @param_dni + '%')                       </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_apellido" ColumnName="apellido" DataSourceName="Prueba_Proyecto.dbo.Clientes" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@param_apellido" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="ClienteApe" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactVendedorPorDniCliente" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy7" GeneratorSourceName="BuscarFactVendedorPorDniCliente" GetMethodModifier="Public" GetMethodName="GetDataBy7" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy7" UserSourceName="BuscarFactVendedorPorDniCliente">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+ WHERE (CAST(C.dni_cliente AS VARCHAR) LIKE '%' + @param_dni_cliente + '%')   AND    (CAST(U.dni_empleado AS VARCHAR) LIKE '%' + @param_dni + '%')                                 </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni_cliente" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni_cliente" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactVendedorPorFecha" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy8" GeneratorSourceName="BuscarFactVendedorPorFecha" GetMethodModifier="Public" GetMethodName="GetDataBy8" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy8" UserSourceName="BuscarFactVendedorPorFecha">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+   WHERE (F.fecha_factura BETWEEN @desde AND @hasta)  AND   (CAST(U.dni_empleado AS VARCHAR) LIKE '%' + @param_dni + '%')                                    </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="Fecha" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="fecha_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="Fecha" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="BuscarFactVendedorPorId" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy5" GeneratorSourceName="BuscarFactVendedorPorId" GetMethodModifier="Public" GetMethodName="GetDataBy5" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy5" UserSourceName="BuscarFactVendedorPorId">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     F.id_factura AS NumFactura, F.fecha_factura AS Fecha, C.nombre AS ClienteNom, C.apellido AS ClienteApe, C.direccion AS ClienteDomicilio, C.dni_cliente AS ClienteDni, C.telefono AS ClienteTel, E.nombre AS VendedorNom, 
+                         E.apellido AS VendedorApe, F.total_factura AS Total, E.dni_empleado
+FROM            Facturas AS F INNER JOIN
+                         
+                         Clientes AS C ON F.dni_cliente = C.dni_cliente INNER JOIN
+                         Usuarios AS U ON U.id_usuario = F.id_usuario INNER JOIN
+                         Empleados AS E ON U.dni_empleado = E.dni_empleado 
+    WHERE    (F.id_factura = @idFactura)   AND   (CAST(U.dni_empleado AS VARCHAR) LIKE '%' + @param_dni +'%')                  </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idFactura" ColumnName="id_factura" DataSourceName="Prueba_Proyecto.dbo.Facturas" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idFactura" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="NumFactura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="param_dni" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@param_dni" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProductosSinVentasTableAdapter" GeneratorDataComponentClassName="ProductosSinVentasTableAdapter" Name="ProductosSinVentas" UserDataComponentName="ProductosSinVentasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.Productos" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="ProductosSinVentas" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="ProductosSinVentas" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="ProductosSinVentas">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Productos.id_producto AS CodigoProducto, Productos.descripcion AS Producto, Productos.id_marca AS CodMarca, Productos.stock AS Stock, Productos.precio AS Precio, Productos.precio * Productos.stock AS Capital_estancado
+FROM            Productos  LEFT OUTER JOIN
+                             (SELECT        DetalleFacturas.id_producto
+                               FROM            DetalleFacturas INNER JOIN
+                                                         Facturas ON DetalleFacturas.id_factura = Facturas.id_factura) AS Resultado ON Productos.id_producto = Resultado.id_producto
+WHERE        (Resultado.id_producto IS NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CodigoProducto" DataSetColumn="CodigoProducto" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="CodMarca" DataSetColumn="CodMarca" />
+              <Mapping SourceColumn="Stock" DataSetColumn="Stock" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Capital_estancado" DataSetColumn="Capital_estancado" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="Prueba_Proyecto.dbo.ARTICULOS_SINVENTAS" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ARTICULOS_SINVENTAS</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@desde" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@hasta" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Prueba_ProyectoConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="ProductosSinVentasPorFecha" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="ProductosSinVentasPorFecha" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="ProductosSinVentasPorFecha">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Productos.id_producto AS CodigoProducto, Productos.descripcion AS Producto, Productos.id_marca AS CodMarca, Productos.stock AS Stock, Productos.precio AS Precio, Productos.precio * Productos.stock AS Capital_estancado, 
+                         Marcas.descripcion AS Marca
+FROM            Productos INNER JOIN
+                         Marcas ON Productos.id_marca = Marcas.id_marca LEFT OUTER JOIN
+                             (SELECT        DetalleFacturas.id_producto
+                               FROM            DetalleFacturas INNER JOIN
+                                                         Facturas ON DetalleFacturas.id_factura = Facturas.id_factura
+                               WHERE        (Facturas.fecha_factura BETWEEN @desde AND @hasta)) AS Resultado ON Productos.id_producto = Resultado.id_producto
+WHERE        (Resultado.id_producto IS NULL)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="desde" ColumnName="" DataSourceName="" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@desde" Precision="0" Scale="0" Size="3" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="hasta" ColumnName="" DataSourceName="" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@hasta" Precision="0" Scale="0" Size="3" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetProyecto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetProyecto" msprop:Generator_UserDSName="DataSetProyecto">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Clientes" msprop:Generator_TableClassName="ClientesDataTable" msprop:Generator_TableVarName="tableClientes" msprop:Generator_RowChangedName="ClientesRowChanged" msprop:Generator_TablePropName="Clientes" msprop:Generator_RowDeletingName="ClientesRowDeleting" msprop:Generator_RowChangingName="ClientesRowChanging" msprop:Generator_RowEvHandlerName="ClientesRowChangeEventHandler" msprop:Generator_RowDeletedName="ClientesRowDeleted" msprop:Generator_RowClassName="ClientesRow" msprop:Generator_UserTableName="Clientes" msprop:Generator_RowEvArgName="ClientesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dni_cliente" msprop:Generator_ColumnVarNameInTable="columndni_cliente" msprop:Generator_ColumnPropNameInRow="dni_cliente" msprop:Generator_ColumnPropNameInTable="dni_clienteColumn" msprop:Generator_UserColumnName="dni_cliente" type="xs:int" />
+              <xs:element name="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_UserColumnName="apellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total_Gastado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotal_Gastado" msprop:Generator_ColumnPropNameInRow="Total_Gastado" msprop:Generator_ColumnPropNameInTable="Total_GastadoColumn" msprop:Generator_UserColumnName="Total_Gastado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cantidad_Compradas" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCantidad_Compradas" msprop:Generator_ColumnPropNameInRow="Cantidad_Compradas" msprop:Generator_ColumnPropNameInTable="Cantidad_CompradasColumn" msprop:Generator_UserColumnName="Cantidad_Compradas" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Productos" msprop:Generator_TableClassName="ProductosDataTable" msprop:Generator_TableVarName="tableProductos" msprop:Generator_RowChangedName="ProductosRowChanged" msprop:Generator_TablePropName="Productos" msprop:Generator_RowDeletingName="ProductosRowDeleting" msprop:Generator_RowChangingName="ProductosRowChanging" msprop:Generator_RowEvHandlerName="ProductosRowChangeEventHandler" msprop:Generator_RowDeletedName="ProductosRowDeleted" msprop:Generator_RowClassName="ProductosRow" msprop:Generator_UserTableName="Productos" msprop:Generator_RowEvArgName="ProductosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_UserColumnName="Marca">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Categoria" msprop:Generator_ColumnVarNameInTable="columnCategoria" msprop:Generator_ColumnPropNameInRow="Categoria" msprop:Generator_ColumnPropNameInTable="CategoriaColumn" msprop:Generator_UserColumnName="Categoria">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" />
+              <xs:element name="Ingresos" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIngresos" msprop:Generator_ColumnPropNameInRow="Ingresos" msprop:Generator_ColumnPropNameInTable="IngresosColumn" msprop:Generator_UserColumnName="Ingresos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Promedio" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPromedio" msprop:Generator_ColumnPropNameInRow="Promedio" msprop:Generator_ColumnPropNameInTable="PromedioColumn" msprop:Generator_UserColumnName="Promedio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Facturas" msprop:Generator_TableClassName="FacturasDataTable" msprop:Generator_TableVarName="tableFacturas" msprop:Generator_RowChangedName="FacturasRowChanged" msprop:Generator_TablePropName="Facturas" msprop:Generator_RowDeletingName="FacturasRowDeleting" msprop:Generator_RowChangingName="FacturasRowChanging" msprop:Generator_RowEvHandlerName="FacturasRowChangeEventHandler" msprop:Generator_RowDeletedName="FacturasRowDeleted" msprop:Generator_RowClassName="FacturasRow" msprop:Generator_UserTableName="Facturas" msprop:Generator_RowEvArgName="FacturasRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumFactura" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnNumFactura" msprop:Generator_ColumnPropNameInRow="NumFactura" msprop:Generator_ColumnPropNameInTable="NumFacturaColumn" msprop:Generator_UserColumnName="NumFactura" type="xs:int" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" />
+              <xs:element name="ClienteNom" msprop:Generator_ColumnVarNameInTable="columnClienteNom" msprop:Generator_ColumnPropNameInRow="ClienteNom" msprop:Generator_ColumnPropNameInTable="ClienteNomColumn" msprop:Generator_UserColumnName="ClienteNom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClienteApe" msprop:Generator_ColumnVarNameInTable="columnClienteApe" msprop:Generator_ColumnPropNameInRow="ClienteApe" msprop:Generator_ColumnPropNameInTable="ClienteApeColumn" msprop:Generator_UserColumnName="ClienteApe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClienteDomicilio" msprop:Generator_ColumnVarNameInTable="columnClienteDomicilio" msprop:Generator_ColumnPropNameInRow="ClienteDomicilio" msprop:Generator_ColumnPropNameInTable="ClienteDomicilioColumn" msprop:Generator_UserColumnName="ClienteDomicilio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClienteDni" msprop:Generator_ColumnVarNameInTable="columnClienteDni" msprop:Generator_ColumnPropNameInRow="ClienteDni" msprop:Generator_ColumnPropNameInTable="ClienteDniColumn" msprop:Generator_UserColumnName="ClienteDni" type="xs:int" />
+              <xs:element name="ClienteTel" msprop:Generator_ColumnVarNameInTable="columnClienteTel" msprop:Generator_ColumnPropNameInRow="ClienteTel" msprop:Generator_ColumnPropNameInTable="ClienteTelColumn" msprop:Generator_UserColumnName="ClienteTel">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VendedorNom" msprop:Generator_ColumnVarNameInTable="columnVendedorNom" msprop:Generator_ColumnPropNameInRow="VendedorNom" msprop:Generator_ColumnPropNameInTable="VendedorNomColumn" msprop:Generator_UserColumnName="VendedorNom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VendedorApe" msprop:Generator_ColumnVarNameInTable="columnVendedorApe" msprop:Generator_ColumnPropNameInRow="VendedorApe" msprop:Generator_ColumnPropNameInTable="VendedorApeColumn" msprop:Generator_UserColumnName="VendedorApe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidades" msprop:Generator_ColumnVarNameInTable="columnUnidades" msprop:Generator_ColumnPropNameInRow="Unidades" msprop:Generator_ColumnPropNameInTable="UnidadesColumn" msprop:Generator_UserColumnName="Unidades" type="xs:int" />
+              <xs:element name="Categoria" msprop:Generator_ColumnVarNameInTable="columnCategoria" msprop:Generator_ColumnPropNameInRow="Categoria" msprop:Generator_ColumnPropNameInTable="CategoriaColumn" msprop:Generator_UserColumnName="Categoria">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_UserColumnName="Marca">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" />
+              <xs:element name="Subtotal" msprop:Generator_ColumnVarNameInTable="columnSubtotal" msprop:Generator_ColumnPropNameInRow="Subtotal" msprop:Generator_ColumnPropNameInTable="SubtotalColumn" msprop:Generator_UserColumnName="Subtotal" type="xs:decimal" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" />
+              <xs:element name="dni_empleado" msprop:Generator_ColumnVarNameInTable="columndni_empleado" msprop:Generator_ColumnPropNameInRow="dni_empleado" msprop:Generator_ColumnPropNameInTable="dni_empleadoColumn" msprop:Generator_UserColumnName="dni_empleado" type="xs:int" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_detalle" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid_detalle" msprop:Generator_ColumnPropNameInRow="id_detalle" msprop:Generator_ColumnPropNameInTable="id_detalleColumn" msprop:Generator_UserColumnName="id_detalle" type="xs:int" />
+              <xs:element name="id_producto" msprop:Generator_ColumnVarNameInTable="columnid_producto" msprop:Generator_ColumnPropNameInRow="id_producto" msprop:Generator_ColumnPropNameInTable="id_productoColumn" msprop:Generator_UserColumnName="id_producto" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Empleados" msprop:Generator_TableClassName="EmpleadosDataTable" msprop:Generator_TableVarName="tableEmpleados" msprop:Generator_RowChangedName="EmpleadosRowChanged" msprop:Generator_TablePropName="Empleados" msprop:Generator_RowDeletingName="EmpleadosRowDeleting" msprop:Generator_RowChangingName="EmpleadosRowChanging" msprop:Generator_RowEvHandlerName="EmpleadosRowChangeEventHandler" msprop:Generator_RowDeletedName="EmpleadosRowDeleted" msprop:Generator_RowClassName="EmpleadosRow" msprop:Generator_UserTableName="Empleados" msprop:Generator_RowEvArgName="EmpleadosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VendedorNom" msprop:Generator_ColumnVarNameInTable="columnVendedorNom" msprop:Generator_ColumnPropNameInRow="VendedorNom" msprop:Generator_ColumnPropNameInTable="VendedorNomColumn" msprop:Generator_UserColumnName="VendedorNom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VendedorApe" msprop:Generator_ColumnVarNameInTable="columnVendedorApe" msprop:Generator_ColumnPropNameInRow="VendedorApe" msprop:Generator_ColumnPropNameInTable="VendedorApeColumn" msprop:Generator_UserColumnName="VendedorApe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VendedorDni" msprop:Generator_ColumnVarNameInTable="columnVendedorDni" msprop:Generator_ColumnPropNameInRow="VendedorDni" msprop:Generator_ColumnPropNameInTable="VendedorDniColumn" msprop:Generator_UserColumnName="VendedorDni" type="xs:int" />
+              <xs:element name="Unidades_Vendidas" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnUnidades_Vendidas" msprop:Generator_ColumnPropNameInRow="Unidades_Vendidas" msprop:Generator_ColumnPropNameInTable="Unidades_VendidasColumn" msprop:Generator_UserColumnName="Unidades_Vendidas" type="xs:int" minOccurs="0" />
+              <xs:element name="Ventas_Dia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnVentas_Dia" msprop:Generator_ColumnPropNameInRow="Ventas_Dia" msprop:Generator_ColumnPropNameInTable="Ventas_DiaColumn" msprop:Generator_UserColumnName="Ventas_Dia" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_Ventas" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotal_Ventas" msprop:Generator_ColumnPropNameInRow="Total_Ventas" msprop:Generator_ColumnPropNameInTable="Total_VentasColumn" msprop:Generator_UserColumnName="Total_Ventas" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Promedio_Dia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPromedio_Dia" msprop:Generator_ColumnPropNameInRow="Promedio_Dia" msprop:Generator_ColumnPropNameInTable="Promedio_DiaColumn" msprop:Generator_UserColumnName="Promedio_Dia" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TOTAL_VENTAS" msprop:Generator_TableClassName="TOTAL_VENTASDataTable" msprop:Generator_TableVarName="tableTOTAL_VENTAS" msprop:Generator_RowChangedName="TOTAL_VENTASRowChanged" msprop:Generator_TablePropName="TOTAL_VENTAS" msprop:Generator_RowDeletingName="TOTAL_VENTASRowDeleting" msprop:Generator_RowChangingName="TOTAL_VENTASRowChanging" msprop:Generator_RowEvHandlerName="TOTAL_VENTASRowChangeEventHandler" msprop:Generator_RowDeletedName="TOTAL_VENTASRowDeleted" msprop:Generator_RowClassName="TOTAL_VENTASRow" msprop:Generator_UserTableName="TOTAL_VENTAS" msprop:Generator_RowEvArgName="TOTAL_VENTASRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:dateTime" />
+              <xs:element name="DIA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDIA" msprop:Generator_ColumnPropNameInRow="DIA" msprop:Generator_ColumnPropNameInTable="DIAColumn" msprop:Generator_UserColumnName="DIA" type="xs:int" minOccurs="0" />
+              <xs:element name="DIA_NOMBRE" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDIA_NOMBRE" msprop:Generator_ColumnPropNameInRow="DIA_NOMBRE" msprop:Generator_ColumnPropNameInTable="DIA_NOMBREColumn" msprop:Generator_UserColumnName="DIA_NOMBRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MES" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMES" msprop:Generator_ColumnPropNameInRow="MES" msprop:Generator_ColumnPropNameInTable="MESColumn" msprop:Generator_UserColumnName="MES" type="xs:int" minOccurs="0" />
+              <xs:element name="MES_NOMBRE" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMES_NOMBRE" msprop:Generator_ColumnPropNameInRow="MES_NOMBRE" msprop:Generator_ColumnPropNameInTable="MES_NOMBREColumn" msprop:Generator_UserColumnName="MES_NOMBRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AÑO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAÑO" msprop:Generator_ColumnPropNameInRow="AÑO" msprop:Generator_ColumnPropNameInTable="AÑOColumn" msprop:Generator_UserColumnName="AÑO" type="xs:int" minOccurs="0" />
+              <xs:element name="CanOperaciones" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCanOperaciones" msprop:Generator_ColumnPropNameInRow="CanOperaciones" msprop:Generator_ColumnPropNameInTable="CanOperacionesColumn" msprop:Generator_UserColumnName="CanOperaciones" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalVendido" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalVendido" msprop:Generator_ColumnPropNameInRow="TotalVendido" msprop:Generator_ColumnPropNameInTable="TotalVendidoColumn" msprop:Generator_UserColumnName="TotalVendido" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GANANCIA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGANANCIA" msprop:Generator_ColumnPropNameInRow="GANANCIA" msprop:Generator_ColumnPropNameInTable="GANANCIAColumn" msprop:Generator_UserColumnName="GANANCIA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CAP_INVERTIDO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCAP_INVERTIDO" msprop:Generator_ColumnPropNameInRow="CAP_INVERTIDO" msprop:Generator_ColumnPropNameInTable="CAP_INVERTIDOColumn" msprop:Generator_UserColumnName="CAP_INVERTIDO" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COMPORTAMIENTO_ANUAL_ARTICULO" msprop:Generator_TableClassName="COMPORTAMIENTO_ANUAL_ARTICULODataTable" msprop:Generator_TableVarName="tableCOMPORTAMIENTO_ANUAL_ARTICULO" msprop:Generator_RowChangedName="COMPORTAMIENTO_ANUAL_ARTICULORowChanged" msprop:Generator_TablePropName="COMPORTAMIENTO_ANUAL_ARTICULO" msprop:Generator_RowDeletingName="COMPORTAMIENTO_ANUAL_ARTICULORowDeleting" msprop:Generator_RowChangingName="COMPORTAMIENTO_ANUAL_ARTICULORowChanging" msprop:Generator_RowEvHandlerName="COMPORTAMIENTO_ANUAL_ARTICULORowChangeEventHandler" msprop:Generator_RowDeletedName="COMPORTAMIENTO_ANUAL_ARTICULORowDeleted" msprop:Generator_RowClassName="COMPORTAMIENTO_ANUAL_ARTICULORow" msprop:Generator_UserTableName="COMPORTAMIENTO_ANUAL_ARTICULO" msprop:Generator_RowEvArgName="COMPORTAMIENTO_ANUAL_ARTICULORowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MARCA" msprop:Generator_ColumnVarNameInTable="columnMARCA" msprop:Generator_ColumnPropNameInRow="MARCA" msprop:Generator_ColumnPropNameInTable="MARCAColumn" msprop:Generator_UserColumnName="MARCA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCANT" msprop:Generator_ColumnPropNameInRow="CANT" msprop:Generator_ColumnPropNameInTable="CANTColumn" msprop:Generator_UserColumnName="CANT" type="xs:int" minOccurs="0" />
+              <xs:element name="PRECIOACTUAL" msprop:Generator_ColumnVarNameInTable="columnPRECIOACTUAL" msprop:Generator_ColumnPropNameInRow="PRECIOACTUAL" msprop:Generator_ColumnPropNameInTable="PRECIOACTUALColumn" msprop:Generator_UserColumnName="PRECIOACTUAL" type="xs:decimal" />
+              <xs:element name="GANANCIA_ESTIMADA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGANANCIA_ESTIMADA" msprop:Generator_ColumnPropNameInRow="GANANCIA_ESTIMADA" msprop:Generator_ColumnPropNameInTable="GANANCIA_ESTIMADAColumn" msprop:Generator_UserColumnName="GANANCIA_ESTIMADA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MES" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMES" msprop:Generator_ColumnPropNameInRow="MES" msprop:Generator_ColumnPropNameInTable="MESColumn" msprop:Generator_UserColumnName="MES" type="xs:int" minOccurs="0" />
+              <xs:element name="AÑO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAÑO" msprop:Generator_ColumnPropNameInRow="AÑO" msprop:Generator_ColumnPropNameInTable="AÑOColumn" msprop:Generator_UserColumnName="AÑO" type="xs:int" minOccurs="0" />
+              <xs:element name="Codigo" msprop:Generator_ColumnVarNameInTable="columnCodigo" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" msprop:Generator_UserColumnName="Codigo" type="xs:int" />
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCKACTUAL" msprop:Generator_ColumnVarNameInTable="columnSTOCKACTUAL" msprop:Generator_ColumnPropNameInRow="STOCKACTUAL" msprop:Generator_ColumnPropNameInTable="STOCKACTUALColumn" msprop:Generator_UserColumnName="STOCKACTUAL" type="xs:int" />
+              <xs:element name="MONTOFACTXPROD" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMONTOFACTXPROD" msprop:Generator_ColumnPropNameInRow="MONTOFACTXPROD" msprop:Generator_ColumnPropNameInTable="MONTOFACTXPRODColumn" msprop:Generator_UserColumnName="MONTOFACTXPROD" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VerFacturas" msprop:Generator_TableClassName="VerFacturasDataTable" msprop:Generator_TableVarName="tableVerFacturas" msprop:Generator_TablePropName="VerFacturas" msprop:Generator_RowDeletingName="VerFacturasRowDeleting" msprop:Generator_RowChangingName="VerFacturasRowChanging" msprop:Generator_RowEvHandlerName="VerFacturasRowChangeEventHandler" msprop:Generator_RowDeletedName="VerFacturasRowDeleted" msprop:Generator_UserTableName="VerFacturas" msprop:Generator_RowChangedName="VerFacturasRowChanged" msprop:Generator_RowEvArgName="VerFacturasRowChangeEvent" msprop:Generator_RowClassName="VerFacturasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumFactura" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnNumFactura" msprop:Generator_ColumnPropNameInRow="NumFactura" msprop:Generator_ColumnPropNameInTable="NumFacturaColumn" msprop:Generator_UserColumnName="NumFactura" type="xs:int" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" />
+              <xs:element name="ClienteNom" msprop:Generator_ColumnVarNameInTable="columnClienteNom" msprop:Generator_ColumnPropNameInRow="ClienteNom" msprop:Generator_ColumnPropNameInTable="ClienteNomColumn" msprop:Generator_UserColumnName="ClienteNom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClienteApe" msprop:Generator_ColumnVarNameInTable="columnClienteApe" msprop:Generator_ColumnPropNameInRow="ClienteApe" msprop:Generator_ColumnPropNameInTable="ClienteApeColumn" msprop:Generator_UserColumnName="ClienteApe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClienteDomicilio" msprop:Generator_ColumnVarNameInTable="columnClienteDomicilio" msprop:Generator_ColumnPropNameInRow="ClienteDomicilio" msprop:Generator_ColumnPropNameInTable="ClienteDomicilioColumn" msprop:Generator_UserColumnName="ClienteDomicilio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClienteDni" msprop:Generator_ColumnVarNameInTable="columnClienteDni" msprop:Generator_ColumnPropNameInRow="ClienteDni" msprop:Generator_ColumnPropNameInTable="ClienteDniColumn" msprop:Generator_UserColumnName="ClienteDni" type="xs:int" />
+              <xs:element name="ClienteTel" msprop:Generator_ColumnVarNameInTable="columnClienteTel" msprop:Generator_ColumnPropNameInRow="ClienteTel" msprop:Generator_ColumnPropNameInTable="ClienteTelColumn" msprop:Generator_UserColumnName="ClienteTel">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VendedorNom" msprop:Generator_ColumnVarNameInTable="columnVendedorNom" msprop:Generator_ColumnPropNameInRow="VendedorNom" msprop:Generator_ColumnPropNameInTable="VendedorNomColumn" msprop:Generator_UserColumnName="VendedorNom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VendedorApe" msprop:Generator_ColumnVarNameInTable="columnVendedorApe" msprop:Generator_ColumnPropNameInRow="VendedorApe" msprop:Generator_ColumnPropNameInTable="VendedorApeColumn" msprop:Generator_UserColumnName="VendedorApe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" />
+              <xs:element name="dni_empleado" msprop:Generator_ColumnVarNameInTable="columndni_empleado" msprop:Generator_ColumnPropNameInRow="dni_empleado" msprop:Generator_ColumnPropNameInTable="dni_empleadoColumn" msprop:Generator_UserColumnName="dni_empleado" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductosSinVentas" msprop:Generator_TableClassName="ProductosSinVentasDataTable" msprop:Generator_TableVarName="tableProductosSinVentas" msprop:Generator_RowChangedName="ProductosSinVentasRowChanged" msprop:Generator_TablePropName="ProductosSinVentas" msprop:Generator_RowDeletingName="ProductosSinVentasRowDeleting" msprop:Generator_RowChangingName="ProductosSinVentasRowChanging" msprop:Generator_RowEvHandlerName="ProductosSinVentasRowChangeEventHandler" msprop:Generator_RowDeletedName="ProductosSinVentasRowDeleted" msprop:Generator_RowClassName="ProductosSinVentasRow" msprop:Generator_UserTableName="ProductosSinVentas" msprop:Generator_RowEvArgName="ProductosSinVentasRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodigoProducto" msprop:Generator_ColumnVarNameInTable="columnCodigoProducto" msprop:Generator_ColumnPropNameInRow="CodigoProducto" msprop:Generator_ColumnPropNameInTable="CodigoProductoColumn" msprop:Generator_UserColumnName="CodigoProducto" type="xs:int" />
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodMarca" msprop:Generator_ColumnVarNameInTable="columnCodMarca" msprop:Generator_ColumnPropNameInRow="CodMarca" msprop:Generator_ColumnPropNameInTable="CodMarcaColumn" msprop:Generator_UserColumnName="CodMarca" type="xs:int" />
+              <xs:element name="Stock" msprop:Generator_ColumnVarNameInTable="columnStock" msprop:Generator_ColumnPropNameInRow="Stock" msprop:Generator_ColumnPropNameInTable="StockColumn" msprop:Generator_UserColumnName="Stock" type="xs:int" />
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" />
+              <xs:element name="Capital_estancado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCapital_estancado" msprop:Generator_ColumnPropNameInRow="Capital_estancado" msprop:Generator_ColumnPropNameInTable="Capital_estancadoColumn" msprop:Generator_UserColumnName="Capital_estancado" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Clientes" />
+      <xs:field xpath="mstns:dni_cliente" />
+    </xs:unique>
+    <xs:unique name="Empleados_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Empleados" />
+      <xs:field xpath="mstns:VendedorDni" />
+    </xs:unique>
+    <xs:unique name="VerFacturas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VerFacturas" />
+      <xs:field xpath="mstns:NumFactura" />
+      <xs:field xpath="mstns:ClienteDni" />
+      <xs:field xpath="mstns:dni_empleado" />
+    </xs:unique>
+    <xs:unique name="ProductosSinVentas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ProductosSinVentas" />
+      <xs:field xpath="mstns:CodigoProducto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
