@@ -1,0 +1,4 @@
+Administrador: Usuario:39316120  Contraseña: hola
+Supervisor:    Usuario: 12345 Contraseña: hola
+Vendedor:      Usuario: 67890 Contraseña: hola
+Superadmin:    Usuario: 34825398 Contraseña: hola
